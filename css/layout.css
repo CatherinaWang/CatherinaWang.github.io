@@ -29,7 +29,7 @@
 body
 {
   background: #181d21;
-  font-family:"Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family:Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
 
 }
 
@@ -171,7 +171,7 @@ ul#nav li.current a { color: #fff; }
 #hero {
    margin-top: 0px;
    padding:250px 0 450px;
-   background: #eee url(../images/qichuang_banner.jpg) no-repeat 50%;
+   background: #eee url(http://ok5z8tw6v.bkt.clouddn.com/qichuang_banner.jpg) no-repeat 50%;
    background-size: cover;
    overflow: hidden;
 }

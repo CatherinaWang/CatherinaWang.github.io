@@ -48,14 +48,14 @@ d. Default Styles
    z-index: 99999;
    height: 100%;
 }
-#status  {    
+#status  {
    position: absolute;
    left: 50%;
    top: 50%;
    width: 64px;
    height: 64px;
-   margin: -32px 0 0 -32px;  
-   padding: 0;    
+   margin: -32px 0 0 -32px;
+   padding: 0;
 }
 
 /* ------------------------------------------------------------------
@@ -105,7 +105,6 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
-   font-family: monospace, serif;
    font-size: 1em;
 }
 
@@ -168,7 +167,7 @@ html { font-size: 62.5%; }
 
 body {
    background: #fff;
-   font-family: 'opensans-regular', sans-serif;
+   font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
@@ -184,7 +183,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
-	font-family: 'montserrat-bold', sans-serif;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -221,14 +219,12 @@ blockquote:before {
    font-size: 80px;
    line-height: 0px;
    margin: 0;
-   font-family: arial, sans-serif;
 
    position: absolute;
    top:  30px;
 	left: 0;
 }
 blockquote p {
-   font-family: georgia, serif;
    font-style: italic;
    padding: 0;
    font-size: 18px;
@@ -264,7 +260,6 @@ blockquote cite a:visited { color: #8B9798; border: none }
 	opacity: 0.45;
 	position: absolute;
 	font-size: 80px;
-   font-family: Arial, Sans-Serif;
 }
 .pull-quote:before {
 	content: "\201C";
@@ -285,7 +280,6 @@ blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Abbreviations */
 abbr {
-   font-family: 'opensans-bold', sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
    letter-spacing: .5px;
@@ -299,7 +293,6 @@ abbr:hover { cursor: help; }
 	margin: 0;
 	padding: 14px 6px 0 0;
 	font-size: 84px;
-	font-family: /* Copperplate */ 'montserrat-bold', sans-serif;
    line-height: 60px;
 	text-indent: 0;
 	background: transparent;
@@ -370,7 +363,6 @@ li p { }
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 22px;
-	font-family: 'opensans-bold', sans-serif;
    border: none;
    color: #313131;
 }
@@ -381,7 +373,6 @@ li p { }
 	display: block;
 	margin: 6px 0 0 0;
 	font-size: 13px;
-	font-family: 'opensans-regular', sans-serif;
    color: #8B9798;
 }
 
@@ -493,9 +484,9 @@ input[type="button"] {
    font: 14px/24px 'montserrat-bold', sans-serif;
    background: #11ABB0;
    color: #fff;
-   display: inline-block;   
+   display: inline-block;
 	text-decoration: none;
-   letter-spacing: 0;   
+   letter-spacing: 0;
 	padding: 12px 20px;
 	margin-bottom: 18px;
    border: none;
@@ -751,7 +742,7 @@ properly.
       padding: 0;
 	}
    .column, .columns {
-	   width: auto !important;      
+	   width: auto !important;
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
@@ -826,7 +817,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-
