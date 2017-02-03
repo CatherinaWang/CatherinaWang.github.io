@@ -11,12 +11,12 @@
   	$(window).load(function() {
 
    	// will first fade out the loading animation
-    	$("#status").fadeOut("slow");
+    	// $("#status").fadeOut("slow");
+      //
+    	// // will fade out the whole DIV that covers the website.
+    	// $("#preloader").delay(3500).fadeOut("slow").remove();
 
-    	// will fade out the whole DIV that covers the website.
-    	$("#preloader").delay(3500).fadeOut("slow").remove();
-
-    	$('.js #hero .hero-image img').addClass("animated fadeInUp"); 
+    	$('.js #hero .hero-image img').addClass("animated fadeInUp");
       $('.js #hero .buttons a.trial').addClass("animated shake");
 
   	})
